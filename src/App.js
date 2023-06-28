@@ -19,17 +19,17 @@ function App() {
             <a href='/about' id='Link'>Информация</a>
           </nav>
           <div className='Nav-mobile'>
-            <a href='https://toxic778.github.io/weatherapp/' id='Link'>Главная</a>
-            <a href='https://toxic778.github.io/weatherapp/weather' id='Link'>Погода</a>
-            <a href='https://toxic778.github.io/weatherapp/about' id='Link'>Связаться с нами</a>
+            <a href='/weatherapp' id='Link'>Главная</a>
+            <a href='/weatherapp/weather' id='Link'>Погода</a>
+            <a href='/weatherapp/about' id='Link'>Связаться с нами</a>
           </div>
         </div>
       </header>
     </div>
     <Routes>
-        <Route path='https://toxic778.github.io/weatherapp/about' element={<HomePage />} />
-        <Route path='https://toxic778.github.io/weatherapp/weather' element={<Weather />}/>
-        <Route path='https://toxic778.github.io/weatherapp/about' element={<About />}/>
+        <Route path='/weatherapp' element={<HomePage />} />
+        <Route path='/weatherapp/weather' element={<Weather />}/>
+        <Route path='/weatherapp/about' element={<About />}/>
         <Route path='*' element={<NotFound />}/>
     </Routes>
     </>
