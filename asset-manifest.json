@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/weatherapp/static/css/main.1e40cb5f.css",
+    "main.js": "/weatherapp/static/js/main.ab038592.js",
+    "static/js/787.d9312eb8.chunk.js": "/weatherapp/static/js/787.d9312eb8.chunk.js",
+    "static/media/background_1.jpg": "/weatherapp/static/media/background_1.8d53e7ff481b56ca2236.jpg",
+    "static/media/background_2.jpg": "/weatherapp/static/media/background_2.432b03bb0bda8b248c3a.jpg",
+    "static/media/Montserrat-SemiBold.ttf": "/weatherapp/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Light.ttf": "/weatherapp/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "static/media/Montserrat-Regular.ttf": "/weatherapp/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Roboto-Thin.ttf": "/weatherapp/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
+    "static/media/Roboto-Regular.ttf": "/weatherapp/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Bold.ttf": "/weatherapp/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/Roboto-Light.ttf": "/weatherapp/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "index.html": "/weatherapp/index.html",
+    "main.1e40cb5f.css.map": "/weatherapp/static/css/main.1e40cb5f.css.map",
+    "main.ab038592.js.map": "/weatherapp/static/js/main.ab038592.js.map",
+    "787.d9312eb8.chunk.js.map": "/weatherapp/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e40cb5f.css",
+    "static/js/main.ab038592.js"
+  ]
+}
