@@ -1,0 +1,533 @@
+/* NAVBAR AND APP SETINGS */
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(./font/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(./font/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(./font/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./font/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(./font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(./font/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(./font/Roboto/Roboto-Thin.ttf);
+}
+
+* {
+  font-family: Montserrat-Regular;
+  color: #FFFFF0;
+}
+
+p::selection {
+  background-color: #FFFFF0;
+  color:#282c34
+}
+h1::selection {
+  background-color: #FFFFF0;
+  color:#282c34
+}
+h2::selection {
+  background-color: #FFFFF0;
+  color:#282c34
+}
+h3::selection {
+  background-color: #FFFFF0;
+  color:#282c34
+}
+span::selection {
+  background-color: #FFFFF0;
+  color:#282c34
+}
+a::selection {
+  background-color: #FFFFF0;
+  color:#282c34
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  font-size: calc(4px + 2vmin);
+}
+
+.App-header-wrapper {
+  width: 90%;
+  /* background-color: #5f1f1f; */
+  height: 100%;
+  margin: auto;
+}
+
+.Logotype {
+  font-family: Montserrat-Semibold;
+  float: left;
+}
+
+.Links {
+  float: right;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 3.2ch;
+  margin-left: calc(2ch + 2vmin);
+}
+
+#Link {
+  text-decoration: none;
+  font-family: Montserrat-Light;
+  margin: 0 1em 0 1em;
+}
+#Link:hover {
+  opacity: 0.3;
+}
+
+
+/* HOMEPAGE */
+
+.App-container {
+  background-image: url(./img/background_1.jpg);
+  background-size: cover;
+  min-height: 85vh;
+}
+
+.App-container-dark {
+  width: 100%;
+  height: 87vh;
+  background-color: rgba(0, 0, 0, 0.550);
+}
+
+.App-container-wrapper {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+.Title h1 {
+  font-family: Roboto-Light;
+}
+.Title h3 {
+  font-family: Roboto-Thin;
+}
+.Title {
+  text-align: center;
+  padding-top: 10vh;
+}
+h2 {
+  margin: 0;
+}
+
+#Button {
+  margin: 45px auto;
+  width: 400px;
+  font-size: 21px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-decoration: none;
+  background-color: #000000;
+}
+#Button:hover {
+  animation: background forwards;
+  animation-duration: 600ms;
+  animation-play-state: running;
+}
+@keyframes background {
+  from {
+    background: #000000;
+    color: #FFFFF0;
+  }
+  to {
+    background-color: #FFFFF0;
+    color: #000000;
+  }
+}
+
+.App-footer {
+  min-height: 175px;
+  background-color: #1e2941;
+}
+
+.App-footer a:hover {
+  opacity: 0.3 ;
+}
+
+.footer-info-1 {
+  float: left;
+  width: 50%;
+  min-height: 15vh;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer-col-1 {
+  float: left;
+  width: 50%;
+  min-height: 15vh;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.footer-col-1 a {
+  text-decoration: none;
+  font-family: Roboto-Light;
+  font-size: 22px;
+}
+
+.footer-col-2 {
+  float: left;
+  width: 50%;
+  min-height: 15vh;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.footer-col-2 a {
+  text-decoration: none;
+  font-family: Roboto-Light;
+  font-size: 22px;
+}
+
+.footer-info-2 {
+  float: left;
+  width: 50%;
+  min-height: 15vh;
+}
+
+/* WEATHER PAGE */
+
+.App-container-weather {
+  background-image: url(./img/background_2.jpg);
+  background-size: cover;
+  width: 100%;
+  min-height: 95vh;
+}
+
+.App-container-weather-dark {
+  width: 100%;
+  height: 95vh;
+  background-color: rgba(0, 0, 0, 0.550);
+}
+
+.App-container-weather h1, h2, h3, h4, h5, h6, p, input, a {
+  margin: 0;
+}
+
+.App-container-weather input {
+  color: #282c34;
+  background-color: #FFFFF0;
+  width: 100%;
+  height: 50px;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: Roboto-Regular;
+  padding-left: 8px;
+  border: 2px solid #282c34;
+}
+.App-container-weather input::selection {
+  text-decoration: none;
+}
+.App-container-weather p {
+  font-size: 52px;
+}
+.App-container-weather button {
+  width: 20%;
+  height: 55px;
+  text-decoration: none;
+  margin: 16px 0;
+  font-size: 18px;
+  border: 2px solid #282c34;
+  background-color: #FFFFF0;
+  color: #282c34;
+  font-family: Roboto-Regular;
+}
+
+button:hover {
+  background-color: #dbdbcf;
+}
+
+button:active {
+  animation: clickbutton forwards;
+  animation-duration: 500ms;
+}
+
+@keyframes clickbutton {
+  from {
+    background-color: #FFFFF0;
+    color: #282c34;
+    border: 2px solid #282c34;
+  }
+  to {
+    background-color: #282c34;
+    color: #FFFFF0;
+    border: 2px solid #FFFFF0;
+  }
+}
+
+
+.App-container-weather-wrapper {
+  width: 60%;
+  padding-top: 10vh;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Weather-input {
+  margin-top: 25px;
+}
+
+.Weather-info {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.Weather-main {
+  width: 100%;
+  height: fit-content;
+  background-color: #2757be;
+  padding: 16px;
+}
+
+.Weather-main-2 {
+  width: 50%;
+  height: fit-content;
+  background-color: #2757be;
+  padding: 16px;
+  margin-top: 8px;
+  float: left;
+}
+
+.Weather-main-2 h2, h3 {
+  font-family: Roboto-Thin;
+}
+
+.Weather-main-3 {
+  width: 50%;
+  height: fit-content;
+  background-color: #2757be;
+  padding: 16px;
+  margin: 8px 0 0 0;
+  float: left;
+}
+
+.Weather-main-3 h2 {
+  font-family: Roboto-Thin;
+  float: left;
+  margin: 8px 16px;
+}
+
+.Windy-icon {
+  background-image: url(./img/windy.png);
+  width: 48px;
+  height: 48px;
+  background-size: cover;
+  float: left;
+}
+
+.Compass-icon {
+  background-image: url(./img/compass.png);
+  width: 48px;
+  height: 48px;
+  background-size: cover;
+  float: left;
+}
+
+.Weather-main-4 {
+  width: 50%;
+  height: fit-content;
+  background-color: #2757be;
+  padding: 16px;
+  margin: 8px 0 0 0;
+  float: left;
+}
+
+.Weather-main-4 h2 {
+  font-family: Roboto-Thin;
+  float: left;
+  margin: 8px 16px;
+}
+
+@media screen and (max-width: 1248px) {
+
+  .Weather-main-2 {
+    width: 75%;
+  }
+  .Weather-main-3 {
+    width: 75%;
+  }
+  .Weather-main-4 {
+    width: 75%;
+  }
+}
+
+.Nav-mobile {
+  background-color: #282c34;
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 16px;
+  display: none;
+}
+
+.Nav-mobile a {
+  width: 100%;
+  float: left;
+  margin: 0;
+  display: inline;
+  padding: 16px 0;
+  font-size: 18px;
+}
+
+.Nav-mobile a[href='/weather']:hover {
+  color: #282c34;
+}
+
+.Nav-mobile a[href='/']:hover {
+  color: #282c34;
+}
+
+.Nav-mobile a[href='/about'] {
+  border: 4px solid #FFFFF0;
+}
+
+.Nav-mobile a[href='/about']:hover {
+  animation: changeColor forwards;
+  animation-duration: 500ms;
+}
+
+@keyframes changeColor {
+  from {
+    background: 0;
+    background-color: #282c34;
+    color: #FFFFF0;
+  }
+  to {
+    background: 100%;
+    background-color: #FFFFF0;
+    color: #282c34;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .Links {display: none;}
+
+  a#Link {
+    margin: 0;
+  }
+
+  a#Link:hover {
+    opacity: 1;
+  }
+
+  .Nav-mobile {
+    display: inline;
+  }
+
+  .App-header {
+    padding-bottom: 2vh;
+  }
+  .App-footer {
+    min-height: 350px;
+  }
+  .footer-info-1 {
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .footer-info-2 {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .App-container-weather-wrapper {
+    width: 100%;
+  }
+  .Weather-input input {
+    width: 85%;
+  }
+  .Weather-input button {
+    width: 87%;
+    height: 80px;
+  }
+  .Weather-main {
+    width: 90%;
+    margin: 8px auto;
+    float: none;
+  }
+  .Weather-main-2 {
+    width: 90%;
+    margin: 8px auto;
+    float: none;
+  }
+  .Weather-main-3 {
+    width: 90%;
+    margin: 8px auto;
+    float: none;
+  }
+  .Weather-main-4 {
+    width: 90%;
+    margin: 8px auto;
+    float: none;
+  }
+  
+  .Weather-main-3 h2 {
+    float: none;
+    margin-left: 64px;
+  }
+  .Weather-main-4 h2 {
+    float: none;
+    margin-left: 64px;
+  } 
+  
+}
+
+@media screen and (max-width:450px) {
+  .App-container-weather {
+    min-height: 110vh;
+  }
+  .App-container-weather-dark {
+    min-height: 110vh;
+  }
+  .App-container-weather-wrapper {
+    min-height: 110vh;
+  }
+
+  #Button {
+    max-width: 100%;
+  }
+
+  .footer-col-1 {
+    width: 100%;
+  }
+  .footer-col-2 {
+    width: 100%;
+  }
+  .App-footer {
+    min-height: 700px;
+  }
+}
+.Weather-main-2 h2 {
+  margin: 8px auto;
+}
